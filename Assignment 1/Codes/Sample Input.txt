@@ -1,0 +1,70 @@
+1
+3
+2
+18th September 2022, 17:00 PM
+18th September 2022, 17:02 PM
+10
+2
+1
+GooFlix
+SDE
+60
+9
+2
+1
+1
+Hardware
+2
+70
+4
+5
+4
+3
+1
+18th September 2022, 17:04 PM
+18th September 2022, 17:06 PM
+10
+1
+2
+3
+Smarthak Gupta
+2029043
+9.17
+CSAM
+Bohit Mansal
+2029141
+8.79
+CSE
+Itachi Uchiha
+2029236
+9.96
+CSAI
+1
+Smarthak Gupta
+2029043
+3
+1
+2
+1
+GooFlix
+8
+3
+3
+9
+GooFlix
+10
+1
+1
+Smarthak Gupta
+2029043
+4
+6
+8
+3
+4
+2
+------------------------------
+
+
+
+

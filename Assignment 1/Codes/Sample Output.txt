@@ -1,0 +1,566 @@
+PS C:\Users\gupta\Desktop\Folders\IIITD\Courses\Semester 3\AP\Assignment\Assignment 1\Code> cd "c:\Users\gupta\Desktop\Folders\IIITD\Courses\Semester 3\AP\Assignment\Assignment 1\Code\" ; if ($?) { javac Main.java } ; if ($?) { java Main } 
+
+Welcome to FutureBuilder
+
+<--------------------------------Main Choice------------------------------------------->
+
+1. Enter the Application
+2. Exit the Application
+Input: 1
+
+<--------------------------------Enter Application------------------------------------------->
+
+
+Entering application...
+Choose the mode you want to Enter in:
+1. Enter as Student Mode
+2. Enter as Company Mode
+3. Enter as Placement Cell Mode
+4. Return to Main Application
+Input: 3
+
+<--------------------------------Menu------------------------------------------->
+
+Welcome to IIITD Placement Cell
+1. Open Student Registration
+2. Open Company Registration
+3. Get Number of Student Registrations
+4. Get Number of Company Registrations
+5. Get Number of Offered/Unoffered/Blocked Students
+6. Get Student Details
+7. Get Company Details
+8. Get Average Package
+9. Get Company Process Results
+10. Back
+Input: 2
+
+<--------------------------------Open Company Registration------------------------------------------->
+
+1. Set the Opening time for company registrations
+2. Set the Closing time for company registrations
+Input: 25-09-2022 12:26
+Opening Time: 25-09-2022 12:26
+Input: 25-09-2022 12:28
+Closing Time: 25-09-2022 12:28
+
+<--------------------------------Menu------------------------------------------->
+
+Welcome to IIITD Placement Cell
+1. Open Student Registration
+2. Open Company Registration
+3. Get Number of Student Registrations
+4. Get Number of Company Registrations
+5. Get Number of Offered/Unoffered/Blocked Students
+6. Get Student Details
+7. Get Company Details
+8. Get Average Package
+9. Get Company Process Results
+10. Back
+Input: 10
+
+<--------------------------------Enter Application------------------------------------------->
+
+
+Entering application...
+Choose the mode you want to Enter in:
+1. Enter as Student Mode
+2. Enter as Company Mode
+3. Enter as Placement Cell Mode
+4. Return to Main Application
+Input: 2
+
+<--------------------------------Menu------------------------------------------->
+
+Choose the Company Query to perform:
+1. Add Company and Details
+2. Choose Company
+3. Get Available Companies
+4. Back
+Input: 1
+
+<--------------------------------Add Company------------------------------------------->
+
+Enter the Company's Name:
+Input: GooFlix
+Enter the Company's Role: 
+Input: SDE
+Enter the Company's CTC: 
+Input: 60
+Enter the Company's CGPA requirement: 
+Input: 9
+25-09-2022 12:26
+Company Added Successfully!
+
+<--------------------------------Menu------------------------------------------->
+
+Choose the Company Query to perform:
+1. Add Company and Details
+2. Choose Company
+3. Get Available Companies
+4. Back
+Input: 2
+
+<--------------------------------Choose Company------------------------------------------->
+
+
+Choose to enter into mode of Available Companies:
+
+1. Name: GooFlix
+Input: 1
+
+<--------------------------------Display Company------------------------------------------->
+
+Welcome GooFlix!
+1. Update Role
+2. Update Package
+3. Update CGPA criteria
+4. Register to Institute Drive
+5. Back
+Input: 1
+
+<--------------------------------Update Role------------------------------------------->
+
+Enter the new Role:
+Input: Hardware
+
+<--------------------------------Display Company------------------------------------------->
+
+Welcome GooFlix!
+1. Update Role
+2. Update Package
+3. Update CGPA criteria
+4. Register to Institute Drive
+5. Back
+Input: 2
+
+<--------------------------------Update Package------------------------------------------->
+
+
+Enter the new Package:
+Input: 70
+
+<--------------------------------Display Company------------------------------------------->
+
+Welcome GooFlix!
+1. Update Role
+2. Update Package
+3. Update CGPA criteria
+4. Register to Institute Drive
+5. Back
+Input: 4
+
+<--------------------------------Register------------------------------------------->
+
+25-09-2022 12:26
+Registered!!
+
+<--------------------------------Display Company------------------------------------------->
+
+Welcome GooFlix!
+1. Update Role
+2. Update Package
+3. Update CGPA criteria
+4. Register to Institute Drive
+5. Back
+Input: 5
+
+<--------------------------------Menu------------------------------------------->
+
+Choose the Company Query to perform:
+1. Add Company and Details
+2. Choose Company
+3. Get Available Companies
+4. Back
+Input: 4
+
+<--------------------------------Enter Application------------------------------------------->
+
+
+Entering application...
+Choose the mode you want to Enter in:
+1. Enter as Student Mode
+2. Enter as Company Mode
+3. Enter as Placement Cell Mode
+4. Return to Main Application
+Input: 3
+
+<--------------------------------Menu------------------------------------------->
+
+Welcome to IIITD Placement Cell
+1. Open Student Registration
+2. Open Company Registration
+3. Get Number of Student Registrations
+4. Get Number of Company Registrations
+5. Get Number of Offered/Unoffered/Blocked Students
+6. Get Student Details
+7. Get Company Details
+8. Get Average Package
+9. Get Company Process Results
+10. Back
+Input: 1
+
+<--------------------------------Open Student Registration------------------------------------------->
+
+1. Set the Opening time for student registrations
+2. Set the Closing time for student registrations
+Input: 25-09-2022 12:26
+Opening Time: 25-09-2022 12:26
+Input: 25-09-2022 12:28
+Closing Time: 25-09-2022 12:28
+
+<--------------------------------Menu------------------------------------------->
+
+Welcome to IIITD Placement Cell
+1. Open Student Registration
+2. Open Company Registration
+3. Get Number of Student Registrations
+4. Get Number of Company Registrations
+5. Get Number of Offered/Unoffered/Blocked Students
+6. Get Student Details
+7. Get Company Details
+8. Get Average Package
+9. Get Company Process Results
+10. Back
+Input: 10
+
+<--------------------------------Enter Application------------------------------------------->
+
+
+Entering application...
+Choose the mode you want to Enter in:
+1. Enter as Student Mode
+2. Enter as Company Mode
+3. Enter as Placement Cell Mode
+4. Return to Main Application
+Input: 1
+
+<--------------------------------Menu------------------------------------------->
+
+Choose the Student Query to perform:
+1. Enter as a Student
+2. Add students
+3. Back
+Input: 2
+
+<--------------------------------Add Student------------------------------------------->
+
+Number of students to add:
+Input: 3
+
+Student 1:
+
+Enter the Student's Name:
+Input: Smarthak Gupta
+Enter the Student's Roll Number: 
+Input: 2029043
+Enter the Student's CGPA: 
+Input: 9.17
+Enter the Student's Branch: 
+Input: CSAM
+25-09-2022 12:27
+Student Added Successfully!
+
+Student 2:
+
+Enter the Student's Name:
+Input: Bohit Mansal
+Enter the Student's Roll Number: 
+Input: 2029141
+Enter the Student's CGPA: 
+Input: 8.79
+Enter the Student's Branch: 
+Input: CSE
+25-09-2022 12:27
+Student Added Successfully!
+
+Student 3:
+
+Enter the Student's Name:
+Input: Itachi Uchiha
+Enter the Student's Roll Number: 
+Input: 2029236
+Enter the Student's CGPA: 
+Input: 9.96
+Enter the Student's Branch: 
+Input: CSAI
+25-09-2022 12:27
+Student Added Successfully!
+
+<--------------------------------Menu------------------------------------------->
+
+Choose the Student Query to perform:
+1. Enter as a Student
+2. Add students
+3. Back
+Input: 1
+
+<--------------------------------Enter Student------------------------------------------->
+
+Enter the Student's Name:
+Input: Smarthak Gupta
+Enter the Student's Roll Number: 
+Input: 2029043
+
+Welcome Smarthak Gupta!
+
+<--------------------------------Student Choices------------------------------------------->
+
+What would you like to do Smarthak Gupta :
+1. Register For Placement Drive
+2. Register for Company
+3. Get All Available Companies
+4. Get Current Status
+5. Update CGPA
+6. Accept Offers
+7. Reject Offers
+8. Back
+Input: 3
+
+<--------------------------------Available Companies------------------------------------------->
+
+Following are the list of companies:
+
+Student's Status:
+
+Not Placed
+1. Name: GooFlix
+    Role: Hardware
+    CTC: 70
+    CGPA: 9.0
+
+
+<--------------------------------Student Choices------------------------------------------->
+
+What would you like to do Smarthak Gupta :
+1. Register For Placement Drive
+2. Register for Company
+3. Get All Available Companies
+4. Get Current Status
+5. Update CGPA
+6. Accept Offers
+7. Reject Offers
+8. Back
+Input: 1
+
+<--------------------------------Placement Drive------------------------------------------->
+
+25-09-2022 12:27
+Smarthak Gupta Registered for the Placment Drive at IIITD!
+Your details are:
+Name: Smarthak Gupta
+Roll Number: 2029043
+CGPA: 9.17
+Branch: CSAM
+Status: 2
+
+
+<--------------------------------Student Choices------------------------------------------->
+
+What would you like to do Smarthak Gupta :
+1. Register For Placement Drive
+2. Register for Company
+3. Get All Available Companies
+4. Get Current Status
+5. Update CGPA
+6. Accept Offers
+7. Reject Offers
+8. Back
+Input: 2
+
+<--------------------------------Register for Company------------------------------------------->
+
+Number of companies to register in:
+Input: 1
+
+Enter the Company Name:
+Input: GooFlix
+Succesfully Registered for Hardware role at GooFlix!
+
+
+Companies Registered for:
+
+Company: GooFlix
+Role: Hardware
+Package: 70
+
+
+<--------------------------------Student Choices------------------------------------------->
+
+What would you like to do Smarthak Gupta :
+1. Register For Placement Drive
+2. Register for Company
+3. Get All Available Companies
+4. Get Current Status
+5. Update CGPA
+6. Accept Offers
+7. Reject Offers
+8. Back
+Input: 8
+
+<--------------------------------Menu------------------------------------------->
+
+Choose the Student Query to perform:
+1. Enter as a Student
+2. Add students
+3. Back
+Input: 3
+
+<--------------------------------Enter Application------------------------------------------->
+
+
+Entering application...
+Choose the mode you want to Enter in:
+1. Enter as Student Mode
+2. Enter as Company Mode
+3. Enter as Placement Cell Mode
+4. Return to Main Application
+Input: 3
+
+<--------------------------------Menu------------------------------------------->
+
+Welcome to IIITD Placement Cell
+1. Open Student Registration
+2. Open Company Registration
+3. Get Number of Student Registrations
+4. Get Number of Company Registrations
+5. Get Number of Offered/Unoffered/Blocked Students
+6. Get Student Details
+7. Get Company Details
+8. Get Average Package
+9. Get Company Process Results
+10. Back
+Input: 9
+
+Enter the Company Name:
+Input: GooFlix
+
+<--------------------------------Company Process Results------------------------------------------->
+
+Following are the students selected:
+1. Name: Smarthak Gupta
+Roll Number: 2029043
+CGPA: 9.17
+Branch: CSAM
+
+
+
+<--------------------------------Menu------------------------------------------->
+
+Welcome to IIITD Placement Cell
+1. Open Student Registration
+2. Open Company Registration
+3. Get Number of Student Registrations
+4. Get Number of Company Registrations
+5. Get Number of Offered/Unoffered/Blocked Students
+6. Get Student Details
+7. Get Company Details
+8. Get Average Package
+9. Get Company Process Results
+10. Back
+Input: 10
+
+<--------------------------------Enter Application------------------------------------------->
+
+
+Entering application...
+Choose the mode you want to Enter in:
+1. Enter as Student Mode
+2. Enter as Company Mode
+3. Enter as Placement Cell Mode
+4. Return to Main Application
+Input: 1
+
+<--------------------------------Menu------------------------------------------->
+
+Choose the Student Query to perform:
+1. Enter as a Student
+2. Add students
+3. Back
+Input: 1
+
+<--------------------------------Enter Student------------------------------------------->
+
+Enter the Student's Name:
+Input: Smarthak Gupta
+Enter the Student's Roll Number: 
+Input: 2029043
+
+Welcome Smarthak Gupta!
+
+<--------------------------------Student Choices------------------------------------------->
+
+What would you like to do Smarthak Gupta :
+1. Register For Placement Drive
+2. Register for Company
+3. Get All Available Companies
+4. Get Current Status
+5. Update CGPA
+6. Accept Offers
+7. Reject Offers
+8. Back
+Input: 4
+
+<--------------------------------Current Status------------------------------------------->
+
+
+You have been offered by GooFlix!! Please accept the offer.
+
+<--------------------------------Student Choices------------------------------------------->
+
+What would you like to do Smarthak Gupta :
+1. Register For Placement Drive
+2. Register for Company
+3. Get All Available Companies
+4. Get Current Status
+5. Update CGPA
+6. Accept Offers
+7. Reject Offers
+8. Back
+Input: 6
+
+<--------------------------------Accept Offers------------------------------------------->
+
+Congrats Smarthak Gupta!!You have accepted the offer by GooFlix!!
+
+
+<--------------------------------Student Choices------------------------------------------->
+
+What would you like to do Smarthak Gupta :
+1. Register For Placement Drive
+2. Register for Company
+3. Get All Available Companies
+4. Get Current Status
+5. Update CGPA
+6. Accept Offers
+7. Reject Offers
+8. Back
+Input: 8
+
+<--------------------------------Menu------------------------------------------->
+
+Choose the Student Query to perform:
+1. Enter as a Student
+2. Add students
+3. Back
+Input: 3
+
+<--------------------------------Enter Application------------------------------------------->
+
+
+Entering application...
+Choose the mode you want to Enter in:
+1. Enter as Student Mode
+2. Enter as Company Mode
+3. Enter as Placement Cell Mode
+4. Return to Main Application
+Input: 4
+
+<--------------------------------Main Choice------------------------------------------->
+
+1. Enter the Application
+2. Exit the Application
+Input: 2
+
+<--------------------------------Exit Application------------------------------------------->
+
+Thanks for using FutureBuilder!
