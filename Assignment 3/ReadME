@@ -1,0 +1,160 @@
+<h1><b> Question 1 </b></h1>
+
+<h2><b><u> Odd Even Algorithm </u></b></h2>
+<p> 
+<ul>
+    <li>The oddEvenSort method sorts an array of integers using the odd-even sort algorithm. </li>
+    <li>The algorithm is based on the bubble sort algorithm, but it uses two phases to sort the array. </li>
+    <li> In the first phase, it sorts all odd-numbered elements and in the second phase, it sorts all even-numbered elements. </li>
+</ul>
+</p>
+
+<h2><b><u> Generics </u></b></h2>
+<p>
+<ul>
+    <li> The class OddEven and the oddEvenSort method are generic, so it can sort an array of any comparable objects. </li>
+    <li> The code in the method uses the compareTo method to compare the two objects. </li>
+</ul>
+
+<h2><b><u> Multithreading </u></b></h2>
+<p><u> The multithreaded version of the algorithm is implemented using the following steps: </u></p>
+<ul>
+    <li> The array is divided into two halves. </li>
+    <li> Two threads are created to perform the odd-even sort algorithm on the two halves. </li>
+    <li> The main thread waits for the two threads to finish. </li>
+</ul>
+
+<h2><b><u> File I/O </u></b></h2>
+<p> The output of the program is written to a file named <b>output1.txt</b> in the same directory as the program. 
+    NOTE: Please delete the file before running the program again, as it is appending, it may cause problems. </p>
+</p>
+
+<h2><b><u> Sample Output </u></b></h2>
+<p> The output of the program is shown below:
+<code>
+
+<ul>
+Number of Students: 1<br>
+Time taken for non-parallelized sorting: 410200 nanoseconds<br>
+Time taken for parallelized sorting: 467700 nanoseconds<br>
+Speedup: 0.8770579431259354<br><br>
+
+Number of Students: 10<br>
+Time taken for non-parallelized sorting: 68100 nanoseconds<br>
+Time taken for parallelized sorting: 458200 nanoseconds<br>
+Speedup: 0.14862505456132694<br><br>
+
+Number of Students: 100<br>
+Time taken for non-parallelized sorting: 971500 nanoseconds<br>
+Time taken for parallelized sorting: 482900 nanoseconds<br>
+Speedup: 2.011803686063367<br><br>
+
+Number of Students: 1000<br>
+Time taken for non-parallelized sorting: 13674400 nanoseconds<br>
+Time taken for parallelized sorting: 2429800 nanoseconds<br>
+Speedup: 5.627788295332949<br><br>
+
+Number of Students: 10000<br>
+Time taken for non-parallelized sorting: 187818100 nanoseconds<br>
+Time taken for parallelized sorting: 42402000 nanoseconds<br>
+Speedup: 4.429463232866374<br><br>
+</ul>
+</code>
+
+<ul>
+<u><b> Explanation: </b></u>
+<li> The first line of the output shows the number of students among the list [1, 10, 100, 1000, 10000]. </li>
+<li> The second line shows the time taken for the non-parallelized sorting. </li>
+<li> The third line shows the time taken for the parallelized sorting. </li>
+<li> The fourth line shows the speedup. </li>
+</ul>
+</p>
+<br>
+<br>
+
+<h1><b> Question 2 </b></h1>
+
+<h2><b><u> Basic Idea </u></b></h2>
+<p>
+Building a <b>Binary Tree</b> recursively from a list of integers and then performing <b>inorder traversal</b> on the tree to print the elements in ascending order.
+
+<h2><b><u> Generic </u></b></h2>
+<p>
+The class <b>BinaryTree</b> is generic, so it can build a tree of any comparable objects.
+
+<h2><b><u> Multithreading </u></b></h2>
+<p>
+The multithreaded version of the algorithm is implemented using the following steps:
+<ul>
+    <li> The list is divided into two and four halves. </li>
+    <li> Two and four threads are created to build the binary tree on the two and four halves respectively. </li>
+    <li> The main thread waits for the two threads and four threads to finish. </li>
+</ul>
+
+<h2><b><u> File I/O </u></b></h2>
+<p> The output of the program is written to a file named <b>output2.txt</b> in the same directory as the program. 
+    NOTE: Please delete the file before running the program again, as it is appending, it may cause problems.
+</p>
+
+<h2><b><u> Sample Output </u></b></h2>
+<p> The output of the program is shown below:
+<code>
+<ul>
+Using 1 thread <br>
+Time taken using 1 thread: 3 milliseconds <br>
+Height of the tree: 4 <br>
+Time taken to search for 770754714 using 1 thread: 3 milliseconds <br>
+
+Using 2 threads <br>
+Time taken using 2 threads: 2 milliseconds <br>
+Height of the tree: 4 <br>
+Time taken to search for 770754714 using 2 threads: 2 milliseconds <br>
+
+Using 4 threads <br>
+Time taken using 4 threads: 2 milliseconds <br>
+Height of the tree: 4 <br>
+Time taken to search for 770754714 using 4 threads: 2 milliseconds <br>
+
+Using 1 thread <br>
+Time taken using 1 thread: 1 milliseconds <br>
+Height of the tree: 7 <br>
+Time taken to search for 968056311 using 1 thread: 1 milliseconds <br>
+
+Using 2 threads <br>
+Time taken using 2 threads: 1 milliseconds <br>
+Height of the tree: 7 <br>
+Time taken to search for 968056311 using 2 threads: 1 milliseconds <br>
+
+Using 4 threads <br>
+Time taken using 4 threads: 2 milliseconds <br>
+Height of the tree: 7 <br>
+Time taken to search for 968056311 using 4 threads: 2 milliseconds <br>
+
+Using 1 thread <br>
+Time taken using 1 thread: 53 milliseconds <br>
+Height of the tree: 20 <br>
+Time taken to search for -682321623 using 1 thread: 53 milliseconds <br>
+
+Using 2 threads <br>
+Time taken using 2 threads: 49 milliseconds <br>
+Height of the tree: 20 <br>
+Time taken to search for -682321623 using 2 threads: 49 milliseconds <br>
+
+Using 4 threads <br>
+Time taken using 4 threads: 16 milliseconds <br>
+Height of the tree: 20 <br>
+Time taken to search for -682321623 using 4 threads: 16 milliseconds <br>
+</code>
+</ul>
+</p>
+
+<ul>
+<u><b> Explanation: </b></u>
+<li> The first line of the output shows the number of threads used. </li>
+<li> The second line shows the time taken to build the tree. </li>
+<li> The third line shows the height of the tree. </li>
+<li> The fourth line shows the time taken to search for an element in the tree. </li>
+</ul>
+</p>
+<br>
+<hr>
